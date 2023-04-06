@@ -188,3 +188,29 @@
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.5
 	matter = list(/decl/material/solid/metal/plasteel = MATTER_AMOUNT_REINFORCEMENT)
+/obj/item/clothing/head/helmet/ubcs
+	name = "UBCS Combat Helmet"
+	desc = "Standard issue reinforced headgear. Protects the head from impacts."
+	icon = 'icons/clothing/head/armor/umbrella.dmi'
+	valid_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
+	item_flags = ITEM_FLAG_THICKMATERIAL
+	body_parts_covered = SLOT_HEAD
+	armor = list(
+		ARMOR_MELEE = ARMOR_MELEE_RESISTANT,
+		ARMOR_BULLET = ARMOR_BALLISTIC_RESISTANT,
+		ARMOR_LASER = ARMOR_LASER_HANDGUNS,
+		ARMOR_ENERGY = ARMOR_ENERGY_SMALL,
+		ARMOR_BOMB = ARMOR_BOMB_PADDED
+		)
+	flags_inv = HIDEEARS|BLOCK_HEAD_HAIR
+	cold_protection = SLOT_HEAD
+	min_cold_protection_temperature = HELMET_MIN_COLD_PROTECTION_TEMPERATURE
+	heat_protection = SLOT_HEAD
+	max_heat_protection_temperature = HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
+	siemens_coefficient = 0.7
+	w_class = ITEM_SIZE_NORMAL
+	material = /decl/material/solid/metal/steel
+	matter = list(/decl/material/solid/metal/plasteel = MATTER_AMOUNT_TRACE)
+	origin_tech = "{'materials':1,'engineering':1,'combat':1}"
+	protects_against_weather = TRUE
