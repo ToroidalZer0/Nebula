@@ -24,15 +24,3 @@
 		ARMOR_BOMB = ARMOR_BOMB_PADDED
 		)
 	starting_accessories = list(/obj/item/clothing/accessory/storage/pouches)
-
-	/obj/item/clothing/suit/armor/vest/ubcs
-	name = "UBCS Combat Vest"
-	desc = "A Kevlar armor vest. This one has added webbing."
-	armor = list(
-		ARMOR_MELEE = ARMOR_MELEE_KNIVES,
-		ARMOR_BULLET = ARMOR_BALLISTIC_RESISTANT,
-		ARMOR_LASER = ARMOR_LASER_HANDGUNS,
-		ARMOR_ENERGY = ARMOR_ENERGY_SMALL,
-		ARMOR_BOMB = ARMOR_BOMB_PADDED
-		)
-	starting_accessories = list(/obj/item/clothing/accessory/storage/pouches)
