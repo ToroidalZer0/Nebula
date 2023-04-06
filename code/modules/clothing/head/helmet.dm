@@ -188,10 +188,11 @@
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.5
 	matter = list(/decl/material/solid/metal/plasteel = MATTER_AMOUNT_REINFORCEMENT)
-/obj/item/clothing/head/helmet/ubcs
+
+	/obj/item/clothing/head/helmet/ubcs
 	name = "UBCS Combat Helmet"
 	desc = "Standard issue reinforced headgear. Protects the head from impacts."
-	icon = 'icons/clothing/head/armor/umbrella.dmi'
+	icon = 'icons/clothing/head/armor/ubcs.dmi'
 	valid_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	item_flags = ITEM_FLAG_THICKMATERIAL
