@@ -1746,6 +1746,7 @@
 #include "code\modules\clothing\suits\armor\reactive.dm"
 #include "code\modules\clothing\suits\armor\riot.dm"
 #include "code\modules\clothing\suits\armor\security.dm"
+#include "code\modules\clothing\suits\armor\uss.dm"
 #include "code\modules\clothing\suits\armor\vest.dm"
 #include "code\modules\clothing\under\_under.dm"
 #include "code\modules\clothing\under\color.dm"
