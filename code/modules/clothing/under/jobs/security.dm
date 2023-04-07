@@ -197,7 +197,7 @@
 	*Ghetto way of adding in the umbrella clothes
 	*/
 /obj/item/clothing/under/uss
-	name = "USS Fatigues"
+	name = "USS Combat Fatigues"
 	desc = "Standard issue combat fatigues for USS operatives. Joints include padding to protect the user."
 	icon = 'icons/clothing/under/umbrella/uss.dmi'
 	armor = list(
@@ -219,7 +219,7 @@
 	matter = list(
 		/decl/material/solid/metal/steel = MATTER_AMOUNT_TRACE
 	)
-	/obj/item/clothing/under/uss
+/obj/item/clothing/under/uss
 	name = "USS Fatigues"
 	desc = "Stand issue Uniform for Umbrella Laboratory Security."
 	icon = 'icons/clothing/under/umbrella/labsec.dmi'
