@@ -1,10 +1,3 @@
-/*
-*Contains:
-*USS Fatigues
-*UBCS Fatigues
-*LabSec Uniform
-*(names subject to change)
-*/
 /obj/item/clothing/under/uss
 	name = "USS Fatigues"
 	desc = "Standard issue combat fatigues for USS operatives. Joints include padding to protect the user."
